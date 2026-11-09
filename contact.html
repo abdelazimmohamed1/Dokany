@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dokany - Modern fashion and accessories store"
+    />
+
+    <title>Contact Us | Dokany</title>
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <!-- Top Strip -->
+    <div class="top-strip">
+      Free shipping on orders over EGP 1,000 &nbsp; | &nbsp; Your style, your
+      choice
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg my-nav sticky-top">
+      <div class="container">
+        <a
+          class="navbar-brand dokany d-flex align-items-center"
+          href="index.html"
+        >
+          <i class="fa-solid fa-bag-shopping me-2"></i>
+          Dokany
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Categories
+              </a>
+
+              <ul class="dropdown-menu my-dropdown">
+                <li>
+                  <a class="dropdown-item" href="shop.html?category=Men"
+                    >Men's</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="shop.html?category=Women"
+                    >Women's</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="shop.html?category=Kids"
+                    >Kids</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="shop.html?category=Accessories"
+                    >Accessories</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Navbar Tools -->
+          <div class="nav-tools d-flex align-items-center">
+            <form class="search-box" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search products..."
+                aria-label="Search products"
+              />
+
+              <button class="btn search-btn" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <a class="nav-action" href="wishlist.html" aria-label="Wishlist">
+              <i class="fa-regular fa-heart"></i>
+              <span class="wish-count">0</span>
+            </a>
+
+            <a class="nav-action cart-link" href="cart.html" aria-label="Cart">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span class="cart-count">0</span>
+            </a>
+
+            <a class="nav-action" href="sign-in.html" aria-label="Sign in">
+              <i class="fa-regular fa-user"></i>
+            </a>
+
+            <button
+              class="theme-btn"
+              id="themeButton"
+              type="button"
+              aria-label="Toggle dark mode"
+            >
+              <i class="fa-regular fa-moon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <main class="container section-space pt-0">
+      <div class="row g-4">
+        <!-- Contact Information -->
+        <div class="col-lg-5">
+          <div class="content-card h-100">
+            <h2 class="fw-bold">Get In Touch</h2>
+
+            <p class="text-muted-custom">
+              Have a question about a product or your shopping experience? Send
+              us a message.
+            </p>
+
+            <p class="mt-4">
+              <i class="fa-solid fa-envelope text-success me-2"></i>
+              support@dokany.com
+            </p>
+
+            <p>
+              <i class="fa-solid fa-phone text-success me-2"></i>
+              +20 100 000 0000
+            </p>
+
+            <p>
+              <i class="fa-solid fa-location-dot text-success me-2"></i>
+              Egypt
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="form-card">
+            <h2>Send Us a Message</h2>
+
+            <form id="contactForm" class="mt-3">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="contactName">Your Name</label>
+
+                  <input id="contactName" class="form-control" required />
+                </div>
+
+                <div class="col-md-6">
+                  <label for="contactEmail">Email Address</label>
+
+                  <input
+                    id="contactEmail"
+                    class="form-control"
+                    type="email"
+                    required
+                  />
+                </div>
+
+                <div class="col-12">
+                  <label for="contactSubject">Subject</label>
+
+                  <input id="contactSubject" class="form-control" required />
+                </div>
+
+                <div class="col-12">
+                  <label for="contactMessage">Message</label>
+
+                  <textarea
+                    id="contactMessage"
+                    class="form-control"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button class="btn btn-green px-4" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Brand Information -->
+          <div class="col-lg-4">
+            <a class="footer-brand" href="index.html">
+              <i class="fa-solid fa-bag-shopping me-2"></i>
+              Dokany
+            </a>
+
+            <p class="mt-3">
+              Discover your everyday style with our latest fashion collections,
+              accessories and special offers.
+            </p>
+
+            <div class="d-flex gap-3">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-6 col-lg-2">
+            <h4>Quick Links</h4>
+
+            <p>
+              <a href="index.html">Home</a><br />
+              <a href="shop.html">Shop</a><br />
+              <a href="about-us.html">About Us</a><br />
+              <a href="contact.html">Contact Us</a>
+            </p>
+          </div>
+
+          <!-- Categories -->
+          <div class="col-6 col-lg-3">
+            <h4>Categories</h4>
+
+            <p>
+              <a href="shop.html?category=Men">Men's Fashion</a><br />
+              <a href="shop.html?category=Women">Women's Fashion</a><br />
+              <a href="shop.html?category=Kids">Kids Collection</a><br />
+              <a href="shop.html?category=Accessories">Accessories</a>
+            </p>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="col-lg-3">
+            <h4>Contact</h4>
+
+            <p>
+              <i class="fa-solid fa-envelope me-2"></i>
+              support@dokany.com
+              <br />
+
+              <i class="fa-solid fa-phone me-2"></i>
+              +20 100 000 0000
+              <br />
+
+              <i class="fa-solid fa-location-dot me-2"></i>
+              Egypt
+            </p>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div
+          class="footer-bottom d-flex flex-wrap justify-content-between gap-2"
+        >
+          <span>© 2026 Dokany. All rights reserved.</span>
+
+          <span>Developed by Abdelazim Mohamed</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toast -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert">
+        <div class="toast-body"></div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
